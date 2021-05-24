@@ -10,24 +10,22 @@
 <body>
     <div class="app-wrap">
         <header>
-            <input type="text" autocomplete="off" class="search-box" placeholder="search of a city.....">
+            <input type="text" autocomplete="off" class="search-box" placeholder="search of a location.....">
         </header>
         <main>
             <section class="location">
-                <div class="city"> Search of a City
-
-</div>
+                <div class="city"></div>
                 <div class="date">
                     <p>Date : <span id="datetime"></span></p>
-                         <script>
-                            var dt = new Date();
-                            document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
-                         </script>           
+                    <script>
+                    var dt = new Date();
+                    document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+                    </script>
                 </div>
             </section>
         <div class="current">
-            <div class=""><span></span></div>
-            <div class=""></div>
+            <div class="temp"><span></span></div>
+            <div class="weather">Search For a Location</div>
             <div class="hi-low"></div>
         </div>
         </main>

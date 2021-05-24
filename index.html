@@ -15,7 +15,10 @@
         <main>
             <section class="location">
                 <div class="city">Chennai, TN</div>
-                <div class="date">Wednesday 19 May 2021</div>
+                <div class="date">
+                    <p>Date & Time : <span id="datetime"></span></p><script>var dt = new Date();
+                    document.getElementById("datetime").innerHTML=dt.toLocaleString();</script>            
+                </div>
             </section>
         <div class="current">
             <div class="temp">31<span>°</span></div>

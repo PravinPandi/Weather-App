@@ -14,10 +14,13 @@
         </header>
         <main>
             <section class="location">
-                <div class="city">Chennai, TN</div>
+                <div class="city">Chennai, IN</div>
                 <div class="date">
-                    <p>Date & Time : <span id="datetime"></span></p><script>var dt = new Date();
-                    document.getElementById("datetime").innerHTML=dt.toLocaleString();</script>            
+                    <p>Date : <span id="datetime"></span></p>
+                         <script>
+                            var dt = new Date();
+                            document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+                         </script>           
                 </div>
             </section>
         <div class="current">
